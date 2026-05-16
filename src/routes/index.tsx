@@ -41,7 +41,7 @@ import {
   type Project,
 } from "@/lib/portfolio-data";
 import { ProjectGenerativeCard } from "@/components/ProjectGenerativeCard";
-import nahuelPhoto from "@/assets/nahuel.jpg";
+const nahuelPhoto = "/nahuel.jpg";
 
 export const Route = createFileRoute("/")({
   head: () => ({
